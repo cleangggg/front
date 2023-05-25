@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<h3>a태그</h3>
+속성
+<br> - href : 이동하고자 하는 경로를 넣어준다
+<br> - target : _blank를 사용하여 새탭으로 페이 연다.
+<a href="ex05.html">ex05</a>
+<a href="https://www.naver.com">naver</a>
+<br>
+<a href="#" title="무엇일까요">이동</a>
+<br>
+<a href="#" target="_blank">이동</a>
+<br>
+<a href="mailto:cleangg123456@gmail.com">이메일</a>
+<hr>
+&copy;
+<hr>
+<hr size="100">
+<hr width="50%" align="center" color="red">
+<hr width="50px" align="center" color="blue">
+
+<body>
+	<h3>list</h3>
+	- order : 순서가 있는 리스트<br>
+	- unorder : 순서가 없는 리스트<br>
+	<ul type="circle">
+		<li>스포츠</li> <li>영화</li>		
+	</ul>
+	<ol type="a">
+		<li>스포츠</li> <li>영화</li>		
+	</ol>
+
+	<ul>
+		<li>
+			<b>교육과정</b>
+			<ul>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</li>
+		<li>
+			<b>회사소개</b>
+			<ul>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</li>			
+	</ul>
+
+
+	<h3>img</h3>
+	- 이미지를 넣는경우
+	<br> - src : 이미지를 경로를 넣어준다
+	<br> - alt : 이미지를 불러오지 못하는 경우 내용으로 작성
+	
+	<strong>alt속성은 필수</strong>로 넣어야한다
+	<br>
+	<img src="img.jpg" width="100px" height="100px" alt="이미지입니다!">
+	<br>
+	<a href="https://www.naver.com">
+	<img src="img.jpg" width="100px" height="100px" alt="이미지입니다!">
+	</a>
+
+<pre>
+	공백		을 	넣어		 보 
+세 			요
+</pre>
+</body>
+</html>

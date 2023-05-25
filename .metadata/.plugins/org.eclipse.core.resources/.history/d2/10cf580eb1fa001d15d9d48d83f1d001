@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.font {font-weigth: bold; font-style: itatlic;
+			line-height: 400px;
+			height: 300px;
+			background : red;}
+			.color-1{color : rgb();}/* color: red */
+			.color-2{}
+</style>
+</head>
+<body>
+	<div class="color-1">color-1</div>
+	<div class="color-2">color-2</div>
+<hr>
+	<div>시작</div>
+	<div class="font">bold</div>
+	<div>끝</div>
+	
+</body>
+</html>

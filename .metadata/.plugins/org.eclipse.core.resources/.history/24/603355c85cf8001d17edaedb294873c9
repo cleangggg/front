@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border = "1" height = "500" width = "600">
+		<tr >
+			<th colspan="2">월</th> <th>화</th> <th>수</th>			
+		</tr>
+		<tr>
+			<td rowspan="2"><b>111</b></td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		
+	</table>
+
+</body>
+</html>

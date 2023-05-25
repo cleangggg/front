@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="beige">
+	<pre>
+<font size="7">html 연습</font>
+</pre>
+	<table border="1" height="200" width="500" bgcolor="green">
+
+		<th colspan="4">회사소개
+			<hr width="50%" align="center" color="red">
+		</th>
+		<tr>
+			<td colspan="3" align="center">
+				회사소개
+			</td>
+			
+		</tr>
+		<tr>
+			<td><ol type="a">
+					<li>네이버</li>
+					<li>구글</li>
+					<li>다음</li>
+				</ol></td><td>22</td><td>23</td>
+		</tr>
+		<tr>
+			<td>31</td><td>33</td><td>33</td>
+		</tr>
+		<tr>
+			<th colspan="3"><pre>회사소개 광고안내 검색등록 제휴문의 인재채용 서비스약관 청소년보호정책 개인 정보처리방침 웹접근
+			성안내 고객센터 Copyright 
+			</pre></th>
+		</tr>
+
+	</table>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	div{text-align :center;}
+	.img {width:100px; height:100px;}
+</style>
+
+</head>
+<body>
+
+	<div class="over" >
+		<img class="img" alt="" src="img.jpg">
+	</div>
+
+</body>
+</html>

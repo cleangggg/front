@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!-- <body text = "white" bgcolor = "black"> -->
+<body style="color: red; background: beige">
+
+<hr>
+	<h1>문서의</h1>
+	<h2>문서의</h2>
+	<h3>문서의</h3>
+	<h4>문서의</h4>
+	<h5>문서의</h5>
+	<h6>문서의</h6>
+
+	html 연습
+			
+</body>
+</html>
+
+
+
+

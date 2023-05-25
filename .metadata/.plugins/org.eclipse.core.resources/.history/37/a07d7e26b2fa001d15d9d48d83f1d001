@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type ="text/css">
+	.in-block {
+	
+		background : orange;
+		height: 50px; width:200px;
+		display : inline-bloc; /* block에 width를 주는 효과 */
+		line-height: 50px;
+		text-align: center;
+		
+	}
+</style>
+</head>
+<body>
+
+	<a href="#" class="in-block">홈으로 이동</a>
+	
+
+</body>
+</html>

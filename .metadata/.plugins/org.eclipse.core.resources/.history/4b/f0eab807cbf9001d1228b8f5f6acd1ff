@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<header>
+	<h2>책갈피 기능</h2>
+	<nav>
+		<a href="">오디오</a>
+		<a href="">비디오</a>
+		<a href="">주소</a>
+	</nav>
+</header>
+<body>
+
+	<h3>오디오 자동재생</h3>
+	<audio src="resrouces/media/audio.wav"
+		controls loop autoplay="autoplay" >
+	</audio>
+	<h3>비디오 자동재생</h3>
+	<video src="resrouces/media/video.m4v"
+		controls loop autoplay="autoplay"
+		muted="muted" width="150px" heigh="150px"></video>
+
+</body>
+</html>

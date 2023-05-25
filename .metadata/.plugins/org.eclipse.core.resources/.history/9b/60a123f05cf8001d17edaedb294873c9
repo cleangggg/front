@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border = "1" height = "500" width = "600">
+		<tr >
+			<th colspan="5">IT 시간표</th> 			
+		</tr>
+		<tr>
+			<td></td> <td>401호</td> <td>402호</td><td>403호</td><td>404호</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		<tr>
+			<td>111</td> <td>111</td> <td>111</td>	
+		</tr>
+		
+	</table>
+
+</body>
+</html>

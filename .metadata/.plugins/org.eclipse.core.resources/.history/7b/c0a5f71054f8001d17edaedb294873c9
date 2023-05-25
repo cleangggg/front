@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 style = "background:aqua;">블록요소</h1>
+	<p style = "background:red;"> block 요소</p>
+	<div style = "background:green;"> div block</div>
+	<span style = "background:purple;">span 인라인</span>
+	<label style = "background:teal; ">label inline</label>
+	
+	
+	
+<hr>
+	html<br> 연습 입니다.
+	또 다른 내용
+<HR>
+	html<br>
+	추가 합니다.			
+</body>
+</html>

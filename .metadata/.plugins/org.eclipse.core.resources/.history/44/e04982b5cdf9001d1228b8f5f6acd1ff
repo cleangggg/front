@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<header>
+	<h2>책갈피 기능</h2>
+	<nav>
+		<a href="#audio">오디오</a> <a href="#video">비디오</a> <a href="#addr">주소</a>
+	</nav>
+</header>
+<h1>1</h1>
+<h1>1</h1>
+<h1>1</h1>
+<h1>1</h1>
+<h1>1</h1>
+<body>
+
+	<h3>오디오 자동재생</h3>
+	<a name="audio"></a>
+	<audio src="resrouces/media/audio.wav" controls loop
+		autoplay="autoplay">
+	</audio>
+	<h3>비디오 자동재생</h3>
+	<a name="video"></a>
+	<video src="resrouces/media/video.m4v" controls loop
+		autoplay="autoplay" muted="muted" width="150px" heigh="150px"></video>
+	<hr>
+	<a name="addr">
+		주소가 들어가는 부분 입니다.
+	</a>
+	<a href="#top">위로이동</a>
+	
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="ex06.html">
+	<input type="text" placeholder="input name"><br>
+	<input type="text" placeholder="input address"><br>
+	<textarea rows = "3" cols = "50" placeholder="내용"></textarea><br>
+	<input type="reset" value="초기화">
+	<input type="submit" value="전송">
+	<input type="button" value="버튼">
+</form>
+
+<hr>
+	10대 <input type="checkbox" name="age" checked="checked">
+	20대 <input type="checkbox" name="age" >
+	30대 <input type="checkbox" name="age" >
+	40대 <input type="checkbox" name="age" >
+
+
+<hr>
+	10대 <input type="radio" name="age" checked="checked">
+	20대 <input type="radio" name="age" >
+	40대 <input type="radio" name="age11" >
+	50대 <input type="radio" name="age11" >
+	
+<hr>
+	<h3>input</h3>
+	- 데이터를 입력받는 태그<br>
+	- type속성에 따라 형식이 달라진다<br>
+	<input type="button" value="버 튼"><br>
+	<input type="submit" value="서브밋"><br>
+	<input type="reset" value="초기화"><br>
+	<input type="image" value="img.jpg" width="50"><br>
+	<input type="file"><br>
+	
+	<input type="text" value="값 입력"><br>
+	<input type="password" value="비밀번호"><br>
+	<input type="email" placeholder="text@test.t"><br>
+	<input type="search" value="값 입력시x버튼 생성"><br>
+	<input type="tel" value="010-555-555"><br>
+	<input type="number" min="1" max="10" value="1"><br>
+	
+	<input type="color"><br>
+	<input type="range"><br>
+	<input type="radio"><br>
+	<input type="checkbox"><br>
+	<input type="hidden" value="값을 숨김"><br>
+	<input type="text" value="읽기전용" readonly="readonly"><br>
+
+</body>
+</html>

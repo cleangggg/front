@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<hr size="100">
+<hr width = "50%" align="center" color = "red">
+<hr width = "50px" align="center" color = "blue">
+
+<body>
+	<pre>
+	공백		을 	넣어		 보 
+세 			요
+</pre>
+
+</body>
+</html>
