@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        const myMousedown = ()=>{
+            document.getElementById("span").innerHTML = "마우스 Down";
+        }        
+        const myMouseup = ()=>{
+            document.getElementById("span").innerHTML = "마우스 up";
+        }  
+        let cnt = 0;
+        const myMousemove = ()=>{
+            cnt++;
+            document.getElementById("count1").innerHTML = cnt;
+        }  
+        const myMouseover = ()=>{
+            cnt++;
+            document.getElementById("count2").innerHTML = cnt;    
+        }  
+        const myMouseout = ()=>{
+            cnt++;
+            document.getElementById("count3").innerHTML = cnt;    
+        }  
+        
+
+    </script>
+    
+
+<div onmousedown="myMousedown()" onmouseup="myMouseup()">
+    <span id="span">이벤트 알아보기</span>
+</div>
+<hr>
+<div onmousemove="myMousemove()" style="background : gray ; width: 100px; height: 100px;">
+    <span id="count1">0</span>
+</div>
+<hr>
+<div onmousemove="myMouseover()"    onmouseout="myMouseout()"
+                style="background : gray ; width: 100px; height: 100px;">
+    <span id="count2">0</span>
+</div>
+
+</body>
+</html>

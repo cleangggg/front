@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .img{width:100px; height: 100px;}
+    </style>
+    <script>
+        const images = ["images/최근상품.jpg","images/최근상품02.jpg"];
+        window.onload = ()=>{
+            const div = document.getElementById("test");
+            let msg = "";
+            for (let i = 0; i<images.length ; i++){
+                msg += `<img src="${images[i]}" class="img">`;
+            }
+            div.innerHTML = msg;
+        }
+    </script>
+</head>
+<body>
+    <div id="test"></div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+function big01( values) {
+    if(values[0] > values[1] ) 
+        return values[0];
+    return values[1];
+    }
+    function output01(values, result) {
+        document.write(`${values[0]} 와 ${values[1]} 큰 수 ${result}`)
+    }
+    function input01(){
+    const n1 = prompt("수 입력")
+    const n2 = prompt("수 입력")
+    return [n1, n2];
+    }
+    const inputValue = input01();
+    const result = big01( inputValue );
+    output01(inputValue, result);
+    
+    
+    //=============================
+    
+    
+    <script>
+    function oddEven02( value ) {
+        return ( value % 2 == 0 )?"짝수":"홀수";
+    }
+    function output02(value, re) {
+        document.write(`${value}는 ${re} 입니다`)
+    }
+    function input02(){
+    const n1 = prompt("수 입력")
+    return n1;
+    }
+    const value = input02();
+    const re = oddEven02( value );
+    output02(value, re);
+    </script>
+    
+    //======================
+    
+    <script>
+    function multipleCheck03( value ) {
+    return ( value % 3 == 0 )?"3의 배수":"배수 아님";
+    }
+    function output03(value, re) {
+    document.write(`${value}는 ${re} 입니다`)
+    }
+    function input03(){
+    const n1 = prompt("수 입력")
+    return n1;
+    }
+    const value03 = input03();
+    const re03 = multipleCheck03( value03 );
+    output03(value03, re03);
+    </script>
+    
+    
+    //=====================
+    
+    function primeCheck04( value ) {
+    let cnt = 0;
+    for(let i = 1; i <= value ; i++){
+    if(value % i === 0) cnt++;
+    }
+    if(cnt == 2) return "소수";
+    return "아니다";
+    }
+    function output04(value, re) {
+    document.write(`${value}는 ${re} 입니다`)
+    }
+    function input04(){
+    const n1 = prompt("수 입력")
+    return n1;
+    }
+    const value04 = input04();
+    const re04 = primeCheck04( value04 );
+    output04(value04, re04);
+    
+    
+    //======================
+    
+    <script>
+    function absoluteCheck05( value ) {
+    if( value < 0 )
+    return -value;
+    return value;
+    }
+    function output05(value, re) {
+    document.write(`${value}의 절대값은 ${re} 입니다`)
+    }
+    function input05(){
+    const n1 = prompt("수 입력")
+    return n1;
+    }
+    const value05 = input05();
+    const re05 = absoluteCheck05( value05 );
+    output05(value05, re05);
+    </script>
+    
+    
+    //====================
+    
+    

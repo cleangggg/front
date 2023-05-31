@@ -1,0 +1,21 @@
+<script>
+    function sumFunc02(){
+
+    }
+    let sumFunc = function(x,y){
+        alert("익명함수 실행");
+        return x+y;
+
+    }
+    // documnet.write(sumFunc(10,20));
+
+    let name ="홍길동"
+    let result = (function test(){
+        return "즉시 실행함수는 초기화 목적으로 사용한다.";
+    })(name);
+    document.write(result);
+    (function test1(n){
+        alert(n+"님 반갑 .즉시 실행");
+    })(name);
+
+</script>

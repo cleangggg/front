@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/class">
+
+    </style>
+
+</head>
+
+
+<body>
+    <script>
+    const clickEvent = () =>{
+        //alert("실행??");
+        const name = document.getElementById("name");
+        console.log(name);
+        name.value = "안녕하세요";
+        name.style.backgroundColor = "teal";
+
+        const name2 = document.querySelector("#name2");
+        console.log(name2);
+
+        name2.value = name.value;
+        name.value = "";
+    }
+    
+    </script>
+
+    <script>
+        const innerTest = ()=>{
+            const text = document.querySelector(".txt");
+            console.log(txt);
+            let msg = "<h3 id ='h3'>내용바꾸기</h3>"
+            text.innerHtml =msg ;
+            }
+
+    </script>
+
+    <input type="text" id ="name" class ="aa" placeholder="input name"><br>
+    <input type="text" id = "name2" placeholder="input name2"><br>
+    <input type="button" value="버튼" onclick="clickEvent()"><br>
+
+
+
+
+</body>
+</html>
