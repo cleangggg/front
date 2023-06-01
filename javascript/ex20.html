@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const data = [111,222,333];
+        function printArr(item, index){
+            document.write(`배열 테이터 ${index} = ${item}<br>`);            
+        }
+        
+
+
+        data.forEach(printArr);
+
+        data.forEach(()=>{
+            document.write(`===foreach===<br>`);
+        });
+
+        const mapArr = (value) => {
+            return `<b style="color:red";>${value}</b>`;
+        }
+        const mapArr2 = (value) => `<b style="color:blue;">${value}</b>`;
+        const mapData = data.map(mapArr);
+        const mapData22 = data.map((value)=>{});
+
+        document.write(mapData[0]);
+
+
+
+
+
+        </script>
+
+
+</body>
+</html>
